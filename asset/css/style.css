@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 20px;
+    color: white;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+.flex{
+    flex-direction: row;
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.box-red{
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.box-green{
+    flex-basis: 33%;
+   
+}
+
+.list-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+}
+
+.box-blue{
+    flex-basis: 33%;
+    text-align: center;
+    
+}
+#accedi{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+.container-gray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-coral{
+    width: 51%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+h1{
+    padding-bottom: 25px;
+    font-size: 51px;
+}
+
+.box-text{
+    font-size: 20px;
+}
+
+#white-button{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 12px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#black-button{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.blue-button{
+    background-color: rgb(98, 98, 218);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 12px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* main */
+
+.sezione{
+
+    margin-bottom: 60px;
+    margin-top: 150px;
+}
+
+
+.sezione2{
+
+    width: 100%;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-seione2{
+    text-align:  center;
+    flex-basis: 25%;
+    width: 80%;
+    margin: 0 auto;
+}
+.container2-seione2{
+    text-align:  center;
+    flex-basis: 50%;
+}
+.container3-seione2{
+    flex-basis: 25%;
+    text-align:  center;
+}
+
+.container-sezione{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-sezione2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.text-center{
+    align-items: center;
+}
+
+.box-left{
+    flex-basis: 68%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-left2{
+    flex-basis: 68%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    background-image: url('../img/stars.svg');
+    font-size: 35px;
+}
+
+
+.box-right{
+    flex-basis: 30%;
+}
+
+
+
+.container-footer{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid cyan;
+}
+
+.box-red1{
+    flex-basis: 32%;
+}
+
+h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#italiano{
+    margin-bottom: 20px;
+}
+
+#ita{
+    height: 16px;
+}
+
+#icon{
+    color: white;
+}
+
+#insta{
+    margin: 0 30px;
+}
+
+#facebook{
+    margin-right:  30px;
+}
+
+
+.box-red2{
+    flex-basis: 17%;
+}
+
+.ul-foot{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box-red3{
+    flex-basis: 17%;
+}
+.box-red4{
+    flex-basis: 17%;
+}
+.box-red5{
+    flex-basis: 17%;
+}
+
+.special{
+    color: cyan;
+}
+
+.container-footer2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.footer2-blue{
+    flex-basis: 50%;
+}
+.footer2-lightblue{
+    flex-basis: 50%;
+    text-align: end;
+}
+
+footer{
+    color: white;
+    background-color: rgb(46, 43, 43);
+}
+ 
+.blue-button2{
+    background-color: rgb(98, 98, 218);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 12px;
+}
